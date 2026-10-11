@@ -1,15 +1,13 @@
-> [!NOTE]
-> The newest version of this skill is maintained in the [Codeturion/skills](https://github.com/Codeturion/skills) monorepo, together with all other Codeturion Unity skills.
-> Install from there: `npx skills add Codeturion/skills --skill unity-headless-cli` · browse: https://skills.fuatcankoseoglu.com/#unity-headless-cli
+# unity-headless-cli-plugin
 
-# unity-headless-cli-skill
+> Fork of [Codeturion/unity-headless-cli-skill](https://github.com/Codeturion/unity-headless-cli-skill) (MIT).
 
-[![Version](https://img.shields.io/github/v/release/Codeturion/unity-headless-cli-skill?sort=semver)](https://github.com/Codeturion/unity-headless-cli-skill/releases)
-[![GitHub stars](https://img.shields.io/github/stars/Codeturion/unity-headless-cli-skill?style=flat)](https://github.com/Codeturion/unity-headless-cli-skill/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Codeturion/unity-headless-cli-skill?style=flat)](https://github.com/Codeturion/unity-headless-cli-skill/network/members)
-[![Last commit](https://img.shields.io/github/last-commit/Codeturion/unity-headless-cli-skill)](https://github.com/Codeturion/unity-headless-cli-skill/commits)
-[![Issues](https://img.shields.io/github/issues/Codeturion/unity-headless-cli-skill)](https://github.com/Codeturion/unity-headless-cli-skill/issues)
-[![License: MIT](https://img.shields.io/github/license/Codeturion/unity-headless-cli-skill)](LICENSE)
+[![Version](https://img.shields.io/github/v/release/kouui/unity-headless-cli-plugin?sort=semver)](https://github.com/kouui/unity-headless-cli-plugin/releases)
+[![GitHub stars](https://img.shields.io/github/stars/kouui/unity-headless-cli-plugin?style=flat)](https://github.com/kouui/unity-headless-cli-plugin/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/kouui/unity-headless-cli-plugin?style=flat)](https://github.com/kouui/unity-headless-cli-plugin/network/members)
+[![Last commit](https://img.shields.io/github/last-commit/kouui/unity-headless-cli-plugin)](https://github.com/kouui/unity-headless-cli-plugin/commits)
+[![Issues](https://img.shields.io/github/issues/kouui/unity-headless-cli-plugin)](https://github.com/kouui/unity-headless-cli-plugin/issues)
+[![License: MIT](https://img.shields.io/github/license/kouui/unity-headless-cli-plugin)](LICENSE)
 [![Unity](https://img.shields.io/badge/Unity-6000.x-000000?logo=unity)](https://unity.com)
 [![status: experimental](https://img.shields.io/badge/status-experimental-orange)](#caveats)
 
@@ -25,7 +23,7 @@ The heavy lifting is the Unity CLI plus its experimental `com.unity.pipeline` pa
 ## Install (Claude Code)
 
 ```text
-/plugin marketplace add Codeturion/unity-headless-cli-skill
+/plugin marketplace add kouui/unity-headless-cli-plugin
 /plugin install unity-headless-cli@unity-headless-cli-skill
 ```
 
